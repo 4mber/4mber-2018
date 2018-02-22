@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>4mber</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300|Megrim" rel="stylesheet">
+	<link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+	<script>document.body.className += ' fade-out';</script>
+	<div id="container" class="container">
+
+		<nav id="top">
+			<a href="https://github.com/4mber">
+				<img src="icons/github.svg" class="sm-icon sm-icon-first sm-icon-top" alt="Github" />
+			</a>
+			<a href="https://www.instagram.com/amberleightrask/">
+				<img src="icons/instagram.svg" class="sm-icon sm-icon-top" alt="Instagram" />
+			</a>
+		</nav>
+		<nav id="navigation">
+			<a href="#home" id="home-link" class="nav-link">home</a>
+			<a href="#work" id="work-link" class="nav-link">work</a>
+			<a href="#contact" id="contact-link" class="nav-link">contact</a>
+			<input id="button" type="checkbox"></input>
+			<label for="button" id="about-link" class="nav-link">about</label>
+			<div class="modal">
+				  <div class="content">
+				  		<div id="modal-bg">
+				  			<div id="modal-left">
+				  				<h1 class="modalhead">I'm Amber,</h1>
+				  				<p id="about-text">a front-end engineer and web designer
+								who specializes in developing seamless and meaningful
+								user experiences for desktop and mobile.<br><br>
+
+								When I’m not working, you will find me <a href="http://leighandliam.com/" target="_blank" class="about-link">playing music</a>,
+								experimenting with <a href="https://www.instagram.com/amberleightrask/" target="_blank" class="about-link">pesci-vegan recipes</a>, practicing my yoga skillz, or cruising the canals of Oxford, England in my <a href="https://www.instagram.com/amberleightrask/" target="_blank" class="about-link">boat-home</a> with my husband, <a href="http://iamtrask.github.io/" target="_blank" class="about-link">Andrew.</a></p>
+								<a href="https://github.com/4mber">
+									<img src="icons/github.svg" class="sm-icon sm-icon-about" alt="Github" />
+								</a>
+								<a href="https://www.instagram.com/amberleightrask/">
+									<img src="icons/instagram.svg" class="sm-icon sm-icon-about" alt="Instagram" />
+								</a>
+				  			</div>
+				  		</div>
+				  </div>
+			</div>
+		</nav>
+		<div id="nav-bg"></div>
+
+
+		<!-- BLUE GEOMETRIC HOVER BACKGROUND -->
+	  	<div id="output" class="container">
+	  	</div>
+	  	<!-- -->
+
+	  	<div id="home">
+		  	<h1 class="main"><span class="fade">I'm Amber,</span></h1>
+		  	<h2 class="gradient-text description"><span class="fade">creative developer, experience designer,<br>
+		  	story teller, and web specialist.</span></h2>
+			<a href="#below">
+				<svg class="top-arrows">
+					<path class="a1" d="M0 0 L30 32 L60 0"></path>
+					<path class="a2" d="M0 20 L30 52 L60 20"></path>
+					<path id="nav-change" class="a3" d="M0 40 L30 72 L60 40"></path>
+				</svg>
+			</a>
+	  	</div>
+
+	  	<div id="below">
+			<div id="work">
+			    <!-- <div class="section-title"><h1 class="gradient-text title"><span>Work</span></h1></div> -->
+
+			    <div class="slider">
+					<div class="slider-wrapper flex">
+
+						<!-- TEAM MAP -->
+						<div class="slide flex">
+							<a href="https://openmined.github.io/Team-Map/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/teammap.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>OPENMINED TEAM MAP</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive.<br><br>Based on the MapBox and GitHub APIs, this is a map of contributors for the open source project OpenMined. <br><br>Each marker populates with the contributor's name, location, local time, GitHub and Social Media links, and About information they have supplied via a Google Form. <br><br>The map is filterable by which GitHub repository they have contributed to.</div>
+								<a href="https://openmined.github.io/Team-Map/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- LEIGH & LIAM -->
+						<div class="slide flex">
+							<a href="http://leighandliam.com/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/leighandliam.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>LEIGH & LIAM</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive.<br><br>This is a website for a band. It includes embeddings for a Spotify player, YouTube videos, and Instagram posts.</div>
+								<a href="http://leighandliam.com/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- SCOTLAND -->
+						<div class="slide flex">
+							<a href="http://www.scotlandmanufacturing.com/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/scotland.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>SCOTLAND MANUFACTURING</strong></div>
+								<div class="slide-text">For this project I was asked to reproduce an existing design exactly, and then make specific updates to the copy and images, news articles, contact page, etc. <br><br>This is a website for a U.S.A. based company that manufactures original equipment and components from cold rolled steel.
+								</div>
+								<a href="http://www.scotlandmanufacturing.com/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- SHOW ME YOUR HONSE -->
+						<div class="slide flex">
+							<a href="http://www.showmeyourhonse.com/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/showmeyourhonse.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>SHOW ME YOUR HONSE</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive.<br><br>This is a wedding website, designed around the couple's proposal story. <br><br>This project included extensive use of Photoshop, a FormSpree based RSVP form, and a Juicer.io social media feed.</div>
+								<a href="http://www.showmeyourhonse.com/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- AMBERS MUSIC -->
+						<div class="slide flex">
+							<a href="http://www.ambersmusic.com/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/ambersmusic.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>AMBER'S MUSIC</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive. <br><br>This is a musician's website that includes embeddings for YouTube and SoundCloud. It also leverages a slow and subtle image transitioner above the fold.</div>
+								<a href="http://www.ambersmusic.com/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- CLASSIC ARCADE GAME -->
+						<div class="slide flex">
+							<a href="https://4mber.github.io/Classic-Arcade-Game/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/classicarcadegame.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>CLASSIC ARCADE GAME</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive. <br><br>This is a Javascript based game in the style of Frogger, that implements the HTML5 Canvas API.</div>
+								<a href="https://4mber.github.io/Classic-Arcade-Game/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- BEST OF OXFORD -->
+						<div class="slide flex">
+							<a href="https://4mber.github.io/Best-Of-Oxford/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/bestofoxford.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>BEST OF OXFORD</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive. <br><br>This page uses the Google Maps and Yelp APIs to create a map of the best restaurants and pubs in Oxford, England. <br><br>Each marker pulls up the locations' Yelp rating and top review.</div>
+								<a href="https://4mber.github.io/Best-Of-Oxford/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- MOVING COMPANION -->
+						<div class="slide flex">
+							<a href="https://4mber.github.io/Moving-Companion/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/movingcompanion.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>MOVING COMPANION</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive. <br><br>This site implements the Google Maps Streetview, New York Times, and Wikipedia APIs to load a street view image and any New York Times stories or Wikipedia entries that may be relevant for any particular address in the United States.</div>
+								<a href="https://4mber.github.io/Moving-Companion/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+
+						<!-- NY HOME SEARCH -->
+						<div class="slide flex">
+							<a href="https://4mber.github.io/New-York-Home-Search/" target="_blank">
+								<div class="slide-image">
+									<img src="images/slides/nyhomesearch.png">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="slide-content">
+								<div class="slide-title"><strong>NYC HOME SEARCH</strong></div>
+								<div class="slide-text">For this project I designed and built the webpage in its entirety. It is fully responsive. <br><br>This is a demonstration of a realty app. There are 6 example listings here, limited to NYC, but it could be easily customized to show listings (including prices, contact info., etc.) from a database for any area. <br><br>This app relies heavily on the Google Maps API, giving the user many different ways to find what they are looking for.</div>
+								<a href="https://4mber.github.io/New-York-Home-Search/" target="_blank">
+									<div class="slide-more"><strong>SEE PROJECT</strong></div>
+								</a>
+							</div>	
+						</div>
+					</div>
+					<div class="arrows">
+					<a href="#" title="Previous" class="slide-arrow slider-link prev"></a>
+					<a href="#" title="Next" class="slide-arrow slider-link next"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav id="bottom">
+			<div id="contact">
+				<div><h1 class="title"><span>Get in touch</span></h1></div>
+				<div>
+					<form action="https://formspree.io/amberleightrask@gmail.com" method="POST">
+						<input type="text" name="Name" placeholder="name">
+						<input type="email" name="_replyto" placeholder="email">
+						<textarea type="message" name="Message" placeholder="message"></textarea>
+						<input type="hidden" name="_subject" value="4mber.com Contact Submission" />
+						<input type="submit" value="send">
+					</form>
+				</div>
+			</div>
+			<span id="details">
+				<em><a href="mailto:amberleightrask@gmail.com?Subject=Hi from 4mber.com!" class="email-link">
+				amberleightrask@gmail.com</a><br>
+				<a href="tel:+447476222545" class="phone-link">
+				+44 (0) 7476 222545</a></em>
+			</span>
+			<a href="https://github.com/4mber">
+				<img src="icons/github.svg" class="sm-icon sm-icon-bottom" alt="Github" />
+			</a>
+			<a href="https://www.instagram.com/amberleightrask/">
+				<img src="icons/instagram.svg" class="sm-icon sm-icon-end sm-icon-bottom" alt="Instagram" />
+			</a>
+		</nav>
+
+	</div>
+
+	<script src="js/homehover.js" type="text/javascript"></script>
+	<script>
+	$(function() {
+		$('body').removeClass('fade-out');
+	});
+	</script>
+	
+</body>
+
+</html>
