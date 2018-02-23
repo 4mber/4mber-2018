@@ -436,9 +436,23 @@ input:checked ~ .modal .content {
   .description {
     font-size: 2.5vw;
   }
+  .slide-image img {
+    display: none;
+  }
+  .slide-content {
+    width: 70vw;
+  }
+  .slide-title {
+    font-size: 2.5vw;
+    padding-bottom: 2.5vw;
+  }
   .slide-text {
-    font-size: 1.7vw;
+    font-size: 2.5vw;
     line-height: 1.0;
+    padding-bottom: 2vw;
+  }
+  .slide-more {
+    font-size: 2vw;
   }
   .slide-arrow {
     width: 3vw;
