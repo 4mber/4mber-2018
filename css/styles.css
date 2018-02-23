@@ -352,7 +352,7 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
 #modal-left {
   width: 50%;
   text-align: center;
-  padding: 14% 95px;
+  padding: 16% 95px;
 }
 #about-text {
   color: #FFFFFF;
@@ -424,4 +424,103 @@ input:checked ~ .modal {
 input:checked ~ .modal .content {
   color: #fff;
   transition: color 0.5s ease 0.5s;
+}
+
+
+/* Responsiveness! ------------------------------------------- */
+/* Mobile Landscape */
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  .top-arrows {
+    display: none;
+  }
+  .description {
+    font-size: 2.5vw;
+  }
+  .slide-text {
+    font-size: 1.7vw;
+    line-height: 1.0;
+  }
+  .slide-arrow {
+    width: 3vw;
+    height: 3vw;
+  }
+  .slide-arrow.prev {
+    left: -20px;
+  }
+  #modal-left {
+    width: 98%;
+    padding: 1% 1%;
+  }
+  #navigation, #top {
+    width: 100%;
+  }
+  #about-text {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}
+/* Mobile Portrait */
+@media screen and (max-width: 649px) {
+  #top {
+    display: none;
+  }
+  #navigation {
+    width: 100%;
+    text-align: center;
+  }
+  #home-link {
+    padding-left: 0;
+  }
+  h1.main {
+    font-size: 19vw;
+  }
+  .description {
+    font-size: 5vw;
+  }
+  #work {
+    padding: 6% 0 20% 0;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  input[type=text], input[type=email], input[type=submit], textarea {
+    width: 250px;
+  }
+  h1.modalhead {
+    font-size: 11vw;
+  }
+  #modal-left {
+    width: 96%;
+    padding: 9% 2%;
+  }
+  .slide-image img {
+    display: none;
+  }
+  .slider-wrapper {
+    margin-top: 0;
+    margin-left: 6vw;
+  }
+  .slide-content {
+    width: 70vw;
+    padding: 0vw 4vw 0vw 2vw;
+  }
+  .slide-title {
+    font-size: 4.8vw;
+    padding-bottom: 5vw;
+  }
+  .slide-text {
+    font-size: 5.4vw;
+    line-height: 1;
+    padding-bottom: 4vw;
+  }
+  .slide-more {
+    font-size: 4vw;
+  }
+  .slide-arrow {
+    width: 6vw;
+    height: 6vw;
+  }
+  .slide-arrow.prev {
+    left: -40px;
+  }
 }
