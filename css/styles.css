@@ -207,7 +207,10 @@ form { margin-bottom: 105px; }
   margin: 180px 0 0 0;
   color: #2d4379;
 }
-#work { padding: 9% 0 12% 0; }
+#work { 
+  padding: 9% 0 12% 0;
+  overflow-x: hidden;
+}
 #details {
   font-size: 18px;
   color: #375398;
@@ -526,8 +529,9 @@ input:checked ~ .modal .content {
     padding: 0vw 4vw 0vw 2vw;
   }
   .slide-title {
-    font-size: 4.5vw;
+    font-size: 4.8vw;
     padding-bottom: 5vw;
+    line-height: 1;
   }
   .slide-text {
     font-size: 5.4vw;
