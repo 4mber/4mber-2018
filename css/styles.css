@@ -503,6 +503,7 @@ input:checked ~ .modal .content {
   #home-link { padding-left: 0; }
   h1.main { font-size: 19vw; }
   .description { font-size: 5vw; }
+  .top-arrows { bottom: 40px; }
   #work { padding: 6% 0 20% 0; }
   .title { font-size: 12vw; }
   input[type=text],
@@ -525,7 +526,7 @@ input:checked ~ .modal .content {
     padding: 0vw 4vw 0vw 2vw;
   }
   .slide-title {
-    font-size: 4.8vw;
+    font-size: 4.5vw;
     padding-bottom: 5vw;
   }
   .slide-text {
