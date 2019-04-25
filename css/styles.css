@@ -544,6 +544,6 @@ input:checked ~ .modal .content {
     font-size: 20px;
   }
   h1.modalhead {
-    margin-top: 35px;
+    margin-top: 25%;
   }
 }
