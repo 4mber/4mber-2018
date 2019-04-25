@@ -537,5 +537,13 @@ input:checked ~ .modal .content {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
+  .sm-icon-bottom {
+    padding: 0 2px 0 0;
+  }
+  #about-text {
+    font-size: 20px;
+  }
+  h1.modalhead {
+    margin-top: 35px;
+  }
 }
