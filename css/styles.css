@@ -510,6 +510,8 @@ input:checked ~ .modal .content {
   max-width: 100%;
 }
 .rounded-circle {
+  width: 200px;
+  height: 200px;
   border-radius: 50% !important;
   object-fit: cover;
   -o-transition: 1.2s;
@@ -524,6 +526,77 @@ input:checked ~ .modal .content {
 
 
 /* Responsiveness! ------------------------------------------- */
+
+@media screen and (max-width: 1435px) {
+  .header {
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  h1.modalhead {
+    font-size: 53px;
+  }
+  #about-text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1305px) {
+  h1.main {
+    font-size: 83px;
+  }
+  .description {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .nav-link {
+    letter-spacing: 0;
+    font-size: 17px;
+    padding-left: 18px;
+  }
+  .site-title {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  #about-text {
+    font-size: 17px;
+  }
+
+}
+
+@media screen and (max-width: 930px) {
+  .rounded-circle {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .nav-link {
+    padding-left: 12px;
+  }
+  h1.modalhead {
+    font-size: 48px;
+  }
+  .site-title {
+    font-size: 14px;
+  }
+  .col-lg-2 {
+    padding-right: 110px;
+    padding-left: 0;
+    padding-bottom: 50px;
+  }
+  .rounded-circle {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+
 /* iPad */
 @media screen and (min-width: 751px) and (max-width: 1025px) {
   .col-lg-3 {
@@ -533,11 +606,8 @@ input:checked ~ .modal .content {
   }
 }
 
-
 /* Mobile Landscape */
 @media screen and (min-width: 650px) and (max-width: 750px) {
-  .top-arrows { display: none; }
-  .description { font-size: 2.5vw; }
   #modal-left {
     width: 98%;
     padding: 1% 1%;
@@ -561,11 +631,14 @@ input:checked ~ .modal .content {
     text-align: center;
   }
   #home-link { padding-left: 0; }
-  h1.main { font-size: 19vw; }
-  .description { font-size: 5vw; }
+  h1.main { font-size: 60px; }
+  .description { font-size: 20px; }
   .top-arrows { bottom: 40px; }
   #work { padding: 6% 0 20% 0; }
   .title { font-size: 12vw; }
+  .col-lg-2 {
+    padding-right: 25%;
+  }
   input[type=text],
   input[type=email],
   input[type=submit],
@@ -589,5 +662,27 @@ input:checked ~ .modal .content {
   }
   h1.modalhead {
     margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1.main {
+      font-size: 50px;
+  }
+  .rounded-circle {
+    width: 250px;
+    height: 250px;
+  }
+  .col-lg-2 {
+    padding-right: 35%;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  h1.main {
+      font-size: 40px;
+  }
+  .nav-link {
+    padding-left: 2px;
   }
 }
